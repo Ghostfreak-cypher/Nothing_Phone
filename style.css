@@ -188,3 +188,260 @@ nav h4 {
   right: 22%;
   transform: scale(3) rotate(-47deg);
 }
+
+/* Responsive Design */
+/* Tablet devices (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+  nav {
+    gap: 20px;
+    height: 70px;
+  }
+
+  nav h4 {
+    font-size: 14px;
+  }
+
+  #top-left,
+  #top-right {
+    height: 100px;
+  }
+
+  #box1 {
+    height: 400px;
+    width: 95%;
+    padding: 25px;
+  }
+
+  #box2 {
+    height: 350px;
+    width: 92%;
+    padding: 30px;
+  }
+
+  #box3 {
+    height: 280px;
+    width: 92%;
+  }
+
+  #Future {
+    font-size: 120px;
+  }
+
+  .text {
+    top: 52%;
+    left: 10%;
+    width: 500px;
+  }
+
+  .text h3 {
+    font-size: 40px;
+  }
+
+  .text h4 {
+    font-size: 25px;
+  }
+
+  #android {
+    height: 280px;
+  }
+
+  #phone1 {
+    height: 100px;
+    top: 62%;
+    right: 25%;
+    transform: scale(2.5) rotate(-47deg);
+  }
+
+  #phone2 {
+    height: 100px;
+    top: 63%;
+    right: 20%;
+    transform: scale(2.5) rotate(-47deg);
+  }
+}
+
+/* Mobile devices (481px to 767px) */
+@media screen and (max-width: 767px) {
+  nav {
+    gap: 15px;
+    height: 60px;
+    padding: 0 10px;
+  }
+
+  nav h4 {
+    font-size: 12px;
+  }
+
+  #top-left,
+  #top-right {
+    height: 80px;
+    top: 2%;
+  }
+
+  #top-left {
+    left: 1%;
+  }
+
+  #top-right {
+    right: 1%;
+  }
+
+  #box1 {
+    height: 300px;
+    width: 95%;
+    padding: 20px;
+    border-radius: 180px 180px 100px 100px;
+  }
+
+  #box2 {
+    height: 260px;
+    width: 92%;
+    padding: 20px;
+    border-radius: 180px 180px 100px 100px;
+  }
+
+  #box3 {
+    height: 220px;
+    width: 92%;
+    border-radius: 180px 180px 100px 100px;
+  }
+
+  #Future {
+    font-size: 80px;
+  }
+
+  .text {
+    top: 48%;
+    left: 5%;
+    width: 90%;
+  }
+
+  .text h3 {
+    font-size: 28px;
+  }
+
+  .text h4 {
+    font-size: 18px;
+    padding-left: 30%;
+  }
+
+  #android {
+    height: 200px;
+    top: 50%;
+  }
+
+  #phone1 {
+    height: 80px;
+    top: 58%;
+    right: 20%;
+    transform: scale(2) rotate(-47deg);
+  }
+
+  #phone2 {
+    height: 80px;
+    top: 59%;
+    right: 15%;
+    transform: scale(2) rotate(-47deg);
+  }
+}
+
+/* Small mobile devices (up to 480px) */
+@media screen and (max-width: 480px) {
+  nav {
+    gap: 8px;
+    height: 50px;
+    padding: 0 5px;
+  }
+
+  nav h4 {
+    font-size: 10px;
+  }
+
+  #top-left,
+  #top-right {
+    height: 60px;
+    top: 1%;
+  }
+
+  #box1 {
+    height: 250px;
+    width: 95%;
+    padding: 15px;
+    border-radius: 150px 150px 80px 80px;
+  }
+
+  #box2 {
+    height: 220px;
+    width: 92%;
+    padding: 15px;
+    border-radius: 150px 150px 80px 80px;
+  }
+
+  #box3 {
+    height: 190px;
+    width: 92%;
+    border-radius: 150px 150px 80px 80px;
+  }
+
+  #Future {
+    font-size: 50px;
+  }
+
+  .text {
+    top: 45%;
+    left: 3%;
+    width: 94%;
+  }
+
+  .text h3 {
+    font-size: 20px;
+  }
+
+  .text h4 {
+    font-size: 14px;
+    padding-left: 20%;
+  }
+
+  #android {
+    height: 150px;
+    top: 48%;
+  }
+
+  #phone1 {
+    height: 60px;
+    top: 55%;
+    right: 18%;
+    transform: scale(1.5) rotate(-47deg);
+  }
+
+  #phone2 {
+    height: 60px;
+    top: 56%;
+    right: 12%;
+    transform: scale(1.5) rotate(-47deg);
+  }
+}
+
+/* Extra small devices (up to 375px) */
+@media screen and (max-width: 375px) {
+  nav h4 {
+    font-size: 9px;
+  }
+
+  #top-left,
+  #top-right {
+    height: 50px;
+  }
+
+  #Future {
+    font-size: 40px;
+  }
+
+  .text h3 {
+    font-size: 18px;
+  }
+
+  .text h4 {
+    font-size: 12px;
+  }
+}
