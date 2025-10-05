@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "monoton";
+  src: url(/Monoton1/Monoton-Regular.ttf);
+}
+@font-face {
+  font-family: korataki;
+  src: url(/Monoton1/korataki-rg-3cf0d889-B6eTgmP5.ttf);
+}
+@font-face {
+  font-family: ndot;
+  src: url(/Monoton1/Ndot-55-DoenNkNm.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -52,15 +64,127 @@ nav h4 {
 .center {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  align-items: center;
+  padding-top: 10px;
+  background: linear-gradient(to bottom, #000, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.box1 {
+#box1 {
+  display: flex;
+  justify-content: center;
+
   height: 500px;
   width: 90%;
-  border: 2px solid #fff;
-  border-radius: 100px;
+  padding: 30px;
+
+  /* Subtle transparent border effect */
+  border: 2px solid transparent;
+  border-radius: 250px 250px 150px 150px;
+
+  /* Gradient border with transparency */
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05))
+      border-box;
+
+  /* Rounded smooth edges */
+
+  /* Optional glow effect */
 }
-.center .box1 {
-  border-image: linear-gradient(to bottom, #dbdbdb, #545151) 1;
-  border-radius: 100px;
+#box2 {
+  display: flex;
+  justify-content: center;
+
+  height: 450px;
+  width: 90%;
+  padding: 40px;
+
+  /* Subtle transparent border effect */
+  border: 2px solid transparent;
+  border-radius: 250px 250px 150px 150px;
+
+  /* Gradient border with transparency */
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05))
+      border-box;
+
+  /* Rounded smooth edges */
+
+  /* Optional glow effect */
+}
+#box3 {
+  display: flex;
+  justify-content: center;
+
+  height: 350px;
+  width: 90%;
+  padding: 10px;
+
+  /* Subtle transparent border effect */
+  border: 2px solid transparent;
+  border-radius: 250px 250px 150px 150px;
+
+  /* Gradient border with transparency */
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.05))
+      border-box;
+
+  /* Rounded smooth edges */
+
+  /* Optional glow effect */
+}
+#Future {
+  position: absolute;
+  font-size: 170px;
+  font-family: monoton;
+  /* Add these lines to override the parent's transparent text */
+  -webkit-text-fill-color: rgb(119, 119, 119);
+  background: none;
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  font-weight: 100;
+}
+.text {
+  position: absolute;
+
+  top: 55%;
+  left: 15%;
+  width: 600px;
+}
+.text h3 {
+  color: rgb(74, 76, 77);
+  font-family: ndot;
+  font-size: 50px;
+}
+.text h4 {
+  padding-left: 40%;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(50, 55, 57);
+  font-family: korataki;
+}
+#android {
+  height: 350px;
+
+  position: absolute;
+  top: 52%;
+}
+#phone1 {
+  position: absolute;
+  height: 120px;
+  object-fit: contain;
+
+  top: 65%;
+  right: 28%;
+  transform: scale(3) rotate(-47deg);
+}
+#phone2 {
+  position: absolute;
+  height: 120px;
+  object-fit: contain;
+  z-index: 2;
+  top: 66%;
+  right: 22%;
+  transform: scale(3) rotate(-47deg);
 }
